@@ -1,15 +1,8 @@
 # Introduction to MongoDB
 
-  - MongoDB is Document Database
+  - MongoDB is General Purpose Document Database
   - Stores data in BSON (JSON type)
   - Can be installed locally or hosted in Cloud
-
-# MongoDB Document
-
-  - Records in MongoDB Database
-  - Data Structure composed of _key : value_ pairs
-  - Similar to JSON Objects
-  - Field Values may be Numbers, Strings, Booleans, Arrays, Nested Documents, etc.
 
 # SQL vs Document Databases
 
@@ -52,11 +45,20 @@
 
 > ___Note*___ : By default, MongoDB Atlas is completely locked down. It has no external access.
 
-3. `Install MongoDB Shell (mongosh)` :-
+3. `Load Sample DataSet` :-
+
+    - In 'Database Deployments', go to your Cluster
+    - Click (...) for more options
+    - Click on 'Load Sample Dataset' option from the dropdown
+    - A dialog box appears having information about sample dataset created
+    - Click on 'Load Sample Dataset' button
+    - Wait until the sample dataset is successfully loaded
+
+4. `Install MongoDB Shell (mongosh)` :-
 
     - Download & Install mongosh in your computer from Official Website
 
-4. `Connect to Database` :-
+5. `Connect to Database` :-
 
     - In MongoDB Atlas Dashboard, under 'Databases', click 'Connect' button for your Cluster
     - Choose 'Connect With the MongoDB Shell'
@@ -65,6 +67,19 @@
 
           mongosh "mongodb+srv://cluster0.ex4ht.mongodb.net/myFirstDatabase" --apiVersion 1 --username YOUR_USER_NAME
     
-    - Paste this in your terminal.
+    - Paste this in your terminal
     - Hit Enter
     - You will be prompted to enter your Database User Password which you created earlier
+    - Enter your Credentials correctly
+    - Now, you are connected to Database
+
+# Applications of MongoDB
+
+- E-Commerce
+- Content Management
+- IoT & Time-Series Data
+- Trading & Payments
+- Gaming
+- Mobile Apps
+- Real-Time Analytics
+- Artificial Intelligence
