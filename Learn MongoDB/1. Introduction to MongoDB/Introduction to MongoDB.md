@@ -73,6 +73,18 @@
     - Enter your Credentials correctly
     - Now, you are connected to Database
 
+# Features of MongoDB
+
+  - Flexible and User-Friendly to work with data
+  - Use one format for both model and query in any application
+  - Provides Drivers in all major Programming Languages
+  - Easy to connect MongoDB with any programming language
+  - More Productive & Easier development
+  - Good Scalability
+  - Resilience
+  - Development Speed
+  - Privacy & Security
+
 # Applications of MongoDB
 
 - E-Commerce
